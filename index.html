@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="image">
+        <img src="img/contact-form-icon.svg" alt="" class="logo">
+    </div>
+
+    <h1>Interested in our business pricing?</h1>
+
+    <p>Fill out the form to view details and we’ll contact you as soon as possible.</p>
+
+    <div id="form">
+        <form class="grid">
+            <div class="un">
+                <label for="Name">Name</label>
+                <input type="text" placeholder="Ethan Johnson" id="Name">
+            </div>
+            
+            <div class="deux">
+                <label for="Company">Company email</label>
+                <input type="text" placeholder="ethan@johnson.com" id="Company">
+            </div>
+            
+            <div class="trois">
+                <label for="CompanySize">Company size</label>
+                <img src="img/Expand_down.svg" alt="" class="fleche1">
+                    <select id="CompanySize">
+                        <option value="50-100 employees" selected>50-100 employees</option>
+                        <option value="Coconut">100-200 employees</option>
+                    </select>
+            </div>
+           
+                
+            <div class="quatre">
+                <label for="Subject">Subject</label> 
+                <img src="img/Expand_down.svg" alt="" class="fleche2">
+                    <select id="Subject">
+                        <option value="Building Landing pages" selected>Building Landing pages</option>
+                        <option value="Coconut">Buildang e-shop</option>
+                    </select>
+            </div>
+            
+            <div class="cinq">
+                <label for="Message">Message</label>
+                <textarea placeholder="Message" id="Message">50-100 employees </textarea>
+            </div>
+
+            <button type="submit" class="six">Contact Sales</button>
+        </form>
+    </div>
+</body>
+</html>
