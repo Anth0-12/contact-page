@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+body {
+    background-image: url("img/bg-image.svg");
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#image {
+    width: 100%;
+}
+
+.logo {
+    margin: 25px 0px 25px 50px;
+    width: 8%;
+}
+
+h1 {
+    font-size: 64px;
+    color: white;
+
+    margin: 20px auto 10px;
+    padding: 0 300px;
+
+    text-align: center;
+}
+
+p {
+    font-size: 32px;
+    color: white;
+
+    margin: 10px auto;
+    padding: 0 300px 50px;
+
+    text-align: center;
+}
+
+#form {
+    width: 70%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f8fafc45;
+
+    border-radius: 25px;
+
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-rows: 1fr;
+
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+
+    width: 92%;
+}
+
+label {
+    font-size: 14px;
+    color:white;
+    padding-bottom: 4px;
+}
+
+#Name, #Company{
+    height: 60px;
+
+    border-radius: 10px;
+    border: none;
+}
+
+input::placeholder {
+    font-size: 14px;
+    color: #CDD5E0;
+    padding-left: 25px;
+}
+
+select {
+    height: 60px;
+
+    border-radius: 10px;
+    border: none;
+    
+    font-size: 14px;
+    font-weight: 600;
+
+    padding-left: 25px;
+
+    color: #111729;
+
+    -webkit-appearance: none;
+}
+
+.fleche1 {
+    position: absolute;
+    top: 610px;
+    left: 570px;
+}
+.fleche2 {
+    position: absolute;
+    top: 610px;
+    left: 990px;
+}
+
+.un {
+    display: flex;
+    flex-direction: column;
+
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.deux {
+    display: flex;
+    flex-direction: column;
+
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.trois {
+    display: flex;
+    flex-direction: column;
+
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.quatre {
+    display: flex;
+    flex-direction: column;
+
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.cinq {
+    display: flex;
+    flex-direction: column;
+
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
+
+#Message {
+    height: 150px;
+
+    border-radius: 10px;
+    border: none;
+
+    padding: 10px 12px;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #111729;
+}
+
+.six{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 60px;
+
+    grid-column: 1 / 3;
+    grid-row: 4;
+
+    color: #4036A9;
+    font-size: 20px;
+    font-weight: 800;
+
+    border-radius: 10px;
+    border: none;
+}
