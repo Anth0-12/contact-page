@@ -1,0 +1,41 @@
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    .logo {
+        margin: 40px 0px 25px 40px;
+        width: 10%;
+    }
+
+    h1 {
+        font-size: 56px;
+        color: white;
+    
+        margin: 20px auto 10px;
+        padding: 0 200px;
+    
+        text-align: center;
+    }
+    
+    p {
+        font-size: 23px;
+        color: white;
+    
+        margin: 10px auto;
+        padding: 0 270px 50px;
+    
+        text-align: center;
+    }
+
+    #form {
+        width: 90%;
+    }
+
+    .fleche1 {
+        position: absolute;
+        top: 585px;
+        left: 460px;
+    }
+    .fleche2 {
+        position: absolute;
+        top: 585px;
+        left: 890px;
+    }
+}
